@@ -5,8 +5,9 @@ Starting my coding journey and helping others on the way.
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=peippo1&layout=compact" />
 </a>
 <a href="https://github.com/peippo1/count">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=peippo1&count_private=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=peippo1&show_icons=true&theme=dracula" />
 </a>
 
 <!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=peippo1&layout=compact)](https://github.com/peippo1/github-readme-stats)        ![GitHub stats](https://github-readme-stats.vercel.app/api?username=peippo1&count_private=true) -->
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
