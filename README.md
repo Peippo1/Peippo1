@@ -1,5 +1,5 @@
 
-Starting my coding journey and helping others on the way. Cancel changes
+Starting my coding journey and helping others on the way. 
 
 <a href="https://github.com/peippo1/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=peippo1" />
