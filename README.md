@@ -10,7 +10,7 @@
 - 🌱 Always learning: Databricks · Airflow · Docker · FastAPI · Real-time analytics
 - 🛠️ Certified: Databricks · Dataiku · AWS · GCP
 - 💬 Ask me about: AI solutions, data pipelines, cloud architecture, or scalable ML
-- 📫 Let’s connect on [LinkedIn](www.linkedin.com/in/tim-finch00)
+- 📫 Let’s connect on [LinkedIn](https://www.linkedin.com/in/tim-finch00)
 - 🌍 Fun fact: I love running, vlogging, and cycling around London 🚴
 
 ---
