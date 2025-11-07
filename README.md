@@ -18,7 +18,7 @@
 ### ⚙️ Tech Stack
 
 ```python
-Languages:        Python · SQL · Bash · JavaScript · React, Typescript
+Languages:        Python · SQL · Bash · JavaScript · React · Typescript
 Frameworks:       PySpark · FastAPI · Streamlit · scikit-learn
 Tools:            Docker · Airflow · MLflow · Git · VS Code
 Cloud Platforms:  AWS (Certified) · GCP (Certified) · Databricks (Certified) · Railway · PlanetScale
