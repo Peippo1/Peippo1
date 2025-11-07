@@ -6,8 +6,8 @@
 
 ### 🧩 About Me
 
-- 🔭 Currently building: A modular marketing analytics pipeline using PySpark, Streamlit & MySQL
-- 🌱 Always learning: Databricks · Airflow · Docker · FastAPI · Real-time analytics
+- 🔭 Currently building: StreamSense: Netflix Hit Predictor as a Databricks Hackathon Entry
+- 🌱 Always learning: Databricks · GenAI · Docker · FastAPI · Real-time analytics
 - 🛠️ Certified: Databricks · Dataiku · AWS · GCP
 - 💬 Ask me about: AI solutions, data pipelines, cloud architecture, or scalable ML
 - 📫 Let’s connect on [LinkedIn](https://www.linkedin.com/in/tim-finch00)
@@ -18,7 +18,7 @@
 ### ⚙️ Tech Stack
 
 ```python
-Languages:        Python · SQL · Bash · HTML/CSS
+Languages:        Python · SQL · Bash · JavaScript · React, Typescript
 Frameworks:       PySpark · FastAPI · Streamlit · scikit-learn
 Tools:            Docker · Airflow · MLflow · Git · VS Code
 Cloud Platforms:  AWS (Certified) · GCP (Certified) · Databricks (Certified) · Railway · PlanetScale
