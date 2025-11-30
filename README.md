@@ -88,11 +88,9 @@ I enjoy building practical tools, clean APIs, and automation workflows that brin
 
 ## 📊 GitHub Stats
 
-## 📊 GitHub Stats
-
 <p align="center">
-  <img height="165" src="https://github-readme-stats-godkingjay.vercel.app/api?username=Peippo1&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats-godkingjay.vercel.app/api/top-langs/?username=Peippo1&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api?username=Peippo1&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=Peippo1&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
