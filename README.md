@@ -25,7 +25,7 @@
 I build developer-focused digital products — from AI starter kits to structured project planning tools — designed to help others ship faster and learn modern engineering patterns.
 
 ### 🚀 Featured Product  
-- **FastAPI + LangChain LLM Agent Starter Kit**  
+- **Self-Hosted AI Assistant Backend (FastAPI + LangChain)**  
   A production-ready sync agent template with Docker, tests, tools, and CI.  
   👉 https://finchworksstudio.lemonsqueezy.com
 
