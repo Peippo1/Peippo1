@@ -118,7 +118,7 @@ I enjoy building practical tools, clean APIs, and automation workflows that brin
     <img src="https://img.shields.io/badge/FinchWorks_Studio-Store-00B8FF?style=for-the-badge" />
   </a>
     <a href="[https://finchworksstudio.lemonsqueezy.com](https://finchworks-studio.itch.io/)">
-    <img src="https://img.shields.io/badge/FinchWorks_Studio-Store-00B8FF?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/FinchWorks_Studio-Store-EDA045?style=for-the-badge" />
   </a>
 </p>
 
