@@ -101,7 +101,7 @@ I enjoy building practical tools, clean APIs, and automation workflows that brin
 
 ## 📌 Selected Projects
 
-- **FastAPI + LangChain LLM Agent Starter Kit** — production-ready sync agent with Docker, tools, CI  
+- **Self-Hosted AI Assistant Backend (FastAPI + LangChain)** — A self-hosted FastAPI backend for internal AI assistants and agent-based tools. 
 - **Data Engineering Pipelines** — Python + BigQuery ETL, summarisation models, dashboards  
 - **AI Assistants** — Productivity agents via FastAPI + LLM APIs  
 - **DevOps Infrastructure** — Terraform modules, CI/CD systems, ECS deploys  
