@@ -5,12 +5,30 @@
 
 <!-- Animated Typing Header -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=900&color=00B8FF&center=true&vCenter=true&width=500&lines=Hi+I'm+Tim+(Finch);AI+Engineer+%7C+Python+Developer;Building+FinchWorks+Studio" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=900&color=00B8FF&center=true&vCenter=true&width=500&lines=Hi+I'm+Tim+(Finch);AI+Implementation+Engineer;Building+practical+AI+systems" />
 </h1>
 
 <p align="center">
-  AI Engineer · Creating tools, starter kits, and workflows at <strong>FinchWorks Studio</strong>  
+  AI Implementation Engineer · Building practical systems with AI, data, and APIs  
 </p>
+
+---
+
+## 🧩 About Me
+
+I’m an AI Implementation Engineer focused on building practical systems that work in the real world.
+
+I work across AI engineering, data infrastructure, and product development — designing systems that connect models with real data and operational workflows.
+
+My focus is on turning emerging AI capabilities into reliable, production-ready tools, from LLM-powered applications and agents to data pipelines, APIs, and automation services.
+
+---
+
+## 🚧 Currently Working On
+
+- **CityScout** — a local-first travel app with AI-generated itineraries and planning tools  
+- AI workflow systems and structured generation pipelines  
+- Lightweight APIs for AI-powered automation  
 
 ---
 
@@ -22,21 +40,21 @@
   </a>
 </p>
 
-I build developer-focused digital products — from AI starter kits to structured project planning tools — designed to help others ship faster and learn modern engineering patterns.
+I build developer-focused digital products — from AI starter kits to structured project tools — designed to help others ship faster and learn modern engineering patterns.
 
 ### 🚀 Featured Product  
 - **Self-Hosted AI Assistant Backend (FastAPI + LangChain)**  
-  A production-ready sync agent template with Docker, tests, tools, and CI.  
-  👉 https://finchworksstudio.lemonsqueezy.com
-
-More products coming soon.
+  A production-ready backend template with Docker, tests, tools, and CI  
+  👉 https://finchworksstudio.lemonsqueezy.com  
 
 ---
 
-## 🧩 About Me
+## 📌 Selected Projects
 
-I’m an AI Engineer working across LLMs, FastAPI backends, agents, and cloud-native systems.  
-I enjoy building practical tools, clean APIs, and automation workflows that bring AI into real-world applications.
+- **CampaignForge-AI** — an end-to-end AI pipeline for generating structured marketing strategy, copy, and creative concepts  
+- **ReplyCraft API** — a FastAPI service for generating structured, channel-aware reply drafts  
+- **TrendNest** — a data pipeline and dashboarding system for analysing trends over time  
+- **CityScout** — a local-first travel app with AI-powered itinerary generation  
 
 ---
 
@@ -99,15 +117,6 @@ I enjoy building practical tools, clean APIs, and automation workflows that brin
 
 ---
 
-## 📌 Selected Projects
-
-- **Self-Hosted AI Assistant Backend (FastAPI + LangChain)** — A self-hosted FastAPI backend for internal AI assistants and agent-based tools. 
-- **Data Engineering Pipelines** — Python + BigQuery ETL, summarisation models, dashboards  
-- **AI Assistants** — Productivity agents via FastAPI + LLM APIs  
-- **DevOps Infrastructure** — Terraform modules, CI/CD systems, ECS deploys  
-
----
-
 ## 📫 Connect With Me
 
 <p>
@@ -117,8 +126,8 @@ I enjoy building practical tools, clean APIs, and automation workflows that brin
   <a href="https://finchworksstudio.lemonsqueezy.com">
     <img src="https://img.shields.io/badge/FinchWorks_Studio-Store-00B8FF?style=for-the-badge" />
   </a>
-    <a href="https://finchworks-studio.itch.io/">
-    <img src="https://img.shields.io/badge/FinchWorks_Studio-Store-EDA045?style=for-the-badge" />
+  <a href="https://finchworks-studio.itch.io/">
+    <img src="https://img.shields.io/badge/FinchWorks_Studio-Itch.io-EDA045?style=for-the-badge" />
   </a>
 </p>
 
