@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" role="img" aria-labelledby="title desc">
+  <title id="title">Nereid</title><desc id="desc">A delivery path ending in a human approval gate.</desc>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#15182e"/><stop offset="1" stop-color="#123039"/></linearGradient></defs>
+  <rect width="560" height="250" rx="22" fill="url(#g)"/><g fill="none" stroke-linecap="round">
+    <path d="M58 154C150 80 229 203 320 125s139-4 182 30" stroke="#344558" stroke-width="4"/>
+    <path d="M58 154C150 80 229 203 320 125s139-4 182 30" stroke="#77d6d3" stroke-width="4" stroke-dasharray="8 14"/>
+  </g><g fill="#171a30" stroke="#8d82ef" stroke-width="2"><circle cx="58" cy="154" r="18"/><circle cx="221" cy="153" r="18"/><circle cx="372" cy="103" r="18"/></g>
+  <circle cx="502" cy="155" r="24" fill="#382c21" stroke="#f1be72" stroke-width="2"/><path d="m491 155 8 8 14-17" fill="none" stroke="#f1be72" stroke-width="3" stroke-linecap="round"/>
+  <text x="36" y="51" fill="#f7f1e6" font-family="Georgia,serif" font-size="30">Nereid</text><text x="37" y="79" fill="#aeb8c6" font-family="system-ui,sans-serif" font-size="15">Evidence-backed delivery for coding agents</text>
+</svg>

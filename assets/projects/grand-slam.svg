@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" role="img" aria-labelledby="title desc">
+  <title id="title">Grand Slam Explorer</title><desc id="desc">A tennis court overlaid with an analytical shot trail.</desc>
+  <rect width="560" height="250" rx="22" fill="#17243b"/><g transform="translate(73 106)" fill="none"><rect width="414" height="111" rx="6" stroke="#8bb6cc" stroke-width="2"/><path d="M207 0v111M0 55.5h414M104 0v111M310 0v111" stroke="#587b94"/>
+    <path d="M30 88C119 18 176 99 251 33s116-5 137 16" stroke="#f1c56e" stroke-width="4" stroke-linecap="round"/><circle cx="388" cy="49" r="7" fill="#f1c56e" stroke="none"/>
+  </g><text x="36" y="51" fill="#eff7fb" font-family="Georgia,serif" font-size="30">Grand Slam Explorer</text><text x="37" y="79" fill="#afc3d2" font-family="system-ui,sans-serif" font-size="15">Interactive tennis data, patterns, and stories</text>
+</svg>

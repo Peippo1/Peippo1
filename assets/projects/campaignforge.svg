@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" role="img" aria-labelledby="title desc">
+  <title id="title">CampaignForge AI</title><desc id="desc">A campaign brief branching into connected creative outputs.</desc>
+  <rect width="560" height="250" rx="22" fill="#21172d"/><g fill="none" stroke="#bd87dd" stroke-width="2"><path d="M121 155H250M250 155l104-55M250 155l104 55M354 100h117M354 210h117"/></g>
+  <g fill="#352140" stroke="#d3a1ed" stroke-width="2"><rect x="57" y="130" width="128" height="50" rx="14"/><circle cx="250" cy="155" r="20"/><rect x="354" y="77" width="117" height="46" rx="13"/><rect x="354" y="187" width="117" height="46" rx="13"/></g>
+  <g fill="#f6eafa" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle"><text x="121" y="160">BRIEF</text><text x="412" y="105">COPY</text><text x="412" y="215">CREATIVE</text></g>
+  <text x="36" y="51" fill="#fff5ff" font-family="Georgia,serif" font-size="30">CampaignForge AI</text><text x="37" y="79" fill="#c8b4d0" font-family="system-ui,sans-serif" font-size="15">Structured campaign intelligence and GenAI workflows</text>
+</svg>
