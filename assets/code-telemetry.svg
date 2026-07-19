@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Code telemetry across selected public projects</title>
+  <desc id="desc">An animated mission-control-style orbital chart showing 40.4 percent TypeScript, 39.5 percent Python, 9.6 percent Jupyter Notebook, 8.2 percent CSS, and 2.3 percent supporting languages.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0e1325"/><stop offset="0.55" stop-color="#141b2d"/><stop offset="1" stop-color="#102b30"/>
+    </linearGradient>
+    <radialGradient id="core"><stop stop-color="#f7f0de" stop-opacity=".3"/><stop offset="1" stop-color="#f7f0de" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="5"/></filter>
+    <clipPath id="panel"><rect width="1200" height="520" rx="28"/></clipPath>
+  </defs>
+  <style>
+    .signal { stroke-dasharray: 5 10; animation: signal 7s linear infinite; }
+    .signal-b { animation-direction: reverse; animation-duration: 9s; }
+    .pulse { animation: pulse 3.8s ease-in-out infinite; }
+    .pulse-b { animation-delay: 1.2s; }.pulse-c { animation-delay: 2.4s; }
+    .scan { animation: scan 9s ease-in-out infinite; }
+    @keyframes signal { to { stroke-dashoffset: -60; } }
+    @keyframes pulse { 0%,100% { opacity:.45 } 50% { opacity:1 } }
+    @keyframes scan { 0%,12% { transform:translateX(-80px);opacity:0 } 35%,65% { opacity:.12 } 88%,100% { transform:translateX(1280px);opacity:0 } }
+    @media (prefers-reduced-motion: reduce) { .signal,.pulse,.scan { animation:none } }
+  </style>
+  <g clip-path="url(#panel)">
+    <rect width="1200" height="520" fill="url(#background)"/>
+    <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200M0 420H1200M100 0V520M200 0V520M300 0V520M400 0V520M500 0V520M600 0V520M700 0V520M800 0V520M900 0V520M1000 0V520M1100 0V520" stroke="#d8e1e8" stroke-opacity=".045"/>
+    <rect class="scan" x="-80" width="70" height="520" fill="#79d7d3" opacity="0"/>
+  </g>
+
+  <g font-family="system-ui, sans-serif">
+    <text x="52" y="58" fill="#f7f1e6" font-family="Georgia, serif" font-size="32">Code telemetry</text>
+    <text x="54" y="87" fill="#9ea9bb" font-size="13" letter-spacing="1.7">SELECTED PUBLIC WORK · 4 REPOSITORIES · 728,414 LINGUIST BYTES</text>
+  </g>
+
+  <g fill="none" transform="rotate(-10 345 292)">
+    <ellipse cx="345" cy="292" rx="255" ry="138" stroke="#8390a7" stroke-opacity=".25"/>
+    <ellipse cx="345" cy="292" rx="194" ry="103" stroke="#8390a7" stroke-opacity=".2"/>
+    <ellipse cx="345" cy="292" rx="125" ry="67" stroke="#8390a7" stroke-opacity=".16"/>
+  </g>
+  <g fill="none" stroke="#72d3d1" stroke-opacity=".42" stroke-linecap="round">
+    <path class="signal" d="M345 292 174 198"/>
+    <path class="signal signal-b" d="M345 292 537 345"/>
+    <path class="signal" d="M345 292 431 146"/>
+    <path class="signal signal-b" d="M345 292 216 399"/>
+  </g>
+
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <circle cx="345" cy="292" r="55" fill="url(#core)"/>
+    <circle cx="345" cy="292" r="27" fill="#1c2534" stroke="#f2c777" stroke-width="2"/>
+    <circle class="pulse" cx="345" cy="292" r="36" fill="none" stroke="#f2c777" stroke-opacity=".35"/>
+    <text x="345" y="289" fill="#f7f1e6" font-size="10" letter-spacing="1.4">SHIP</text>
+    <text x="345" y="305" fill="#f7f1e6" font-size="10" letter-spacing="1.4">PRODUCT</text>
+
+    <g><circle cx="174" cy="198" r="27" fill="#242145" stroke="#9b87ff" stroke-width="2"/><circle class="pulse pulse-b" cx="174" cy="198" r="36" fill="none" stroke="#9b87ff" stroke-opacity=".35"/><text x="174" y="202" fill="#eeeaff" font-size="15" font-weight="700">TS</text><text x="174" y="241" fill="#bcb5e7" font-size="11" letter-spacing="1.2">TYPESCRIPT</text></g>
+    <g><circle cx="537" cy="345" r="27" fill="#263225" stroke="#e4c35b" stroke-width="2"/><circle class="pulse pulse-c" cx="537" cy="345" r="36" fill="none" stroke="#e4c35b" stroke-opacity=".35"/><text x="537" y="350" fill="#fff5c8" font-size="15" font-weight="700">PY</text><text x="537" y="389" fill="#d8c985" font-size="11" letter-spacing="1.2">PYTHON</text></g>
+    <g><circle cx="431" cy="146" r="18" fill="#2f262f" stroke="#e58b6f" stroke-width="2"/><text x="431" y="150" fill="#ffe9df" font-size="10" font-weight="700">NB</text><text x="431" y="178" fill="#d7aaa0" font-size="10" letter-spacing="1.1">NOTEBOOKS</text></g>
+    <g><circle cx="216" cy="399" r="17" fill="#1b3045" stroke="#65aee8" stroke-width="2"/><text x="216" y="403" fill="#e5f4ff" font-size="10" font-weight="700">CSS</text><text x="216" y="430" fill="#9dc5e1" font-size="10" letter-spacing="1.1">INTERFACES</text></g>
+    <g fill="#a8b3c2"><circle cx="591" cy="230" r="5"/><circle cx="106" cy="323" r="4"/><circle cx="475" cy="438" r="3"/></g>
+  </g>
+
+  <path d="M685 120V448" stroke="#dbe2e8" stroke-opacity=".13"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="742" y="146" fill="#f7f1e6" font-family="Georgia, serif" font-size="24">Language signal</text>
+    <text x="743" y="172" fill="#9ea9bb" font-size="12" letter-spacing="1.3">CODE VOLUME ACROSS THE PROJECTS ABOVE</text>
+
+    <g transform="translate(742 205)">
+      <rect width="394" height="28" rx="14" fill="#ffffff" fill-opacity=".07"/>
+      <path d="M14 0H159V28H14A14 14 0 0 1 14 0Z" fill="#9b87ff"/>
+      <rect x="159" width="156" height="28" fill="#e4c35b"/>
+      <rect x="315" width="38" height="28" fill="#e58b6f"/>
+      <rect x="353" width="32" height="28" fill="#65aee8"/>
+      <path d="M385 0h-5v28h5a14 14 0 0 0 0-28Z" fill="#7a8798"/>
+    </g>
+
+    <g font-size="14">
+      <g transform="translate(742 276)"><circle r="6" fill="#9b87ff"/><text x="20" y="5" fill="#d9dce5">TypeScript</text><text x="394" y="5" fill="#f7f1e6" text-anchor="end" font-weight="700">40.4%</text></g>
+      <g transform="translate(742 319)"><circle r="6" fill="#e4c35b"/><text x="20" y="5" fill="#d9dce5">Python</text><text x="394" y="5" fill="#f7f1e6" text-anchor="end" font-weight="700">39.5%</text></g>
+      <g transform="translate(742 362)"><circle r="6" fill="#e58b6f"/><text x="20" y="5" fill="#d9dce5">Jupyter Notebook</text><text x="394" y="5" fill="#f7f1e6" text-anchor="end" font-weight="700">9.6%</text></g>
+      <g transform="translate(742 405)"><circle r="6" fill="#65aee8"/><text x="20" y="5" fill="#d9dce5">CSS</text><text x="394" y="5" fill="#f7f1e6" text-anchor="end" font-weight="700">8.2%</text></g>
+      <g transform="translate(742 448)"><circle r="6" fill="#7a8798"/><text x="20" y="5" fill="#d9dce5">Shell, JavaScript + build files</text><text x="394" y="5" fill="#f7f1e6" text-anchor="end" font-weight="700">2.3%</text></g>
+    </g>
+  </g>
+
+  <g font-family="system-ui, sans-serif" font-size="10" letter-spacing="1.25" fill="#8793a6">
+    <text x="52" y="487">SNAPSHOT · 19 JUL 2026</text>
+    <text x="1148" y="487" text-anchor="end">GITHUB LINGUIST VOLUME ≠ PROFICIENCY</text>
+  </g>
+</svg>

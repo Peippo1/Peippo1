@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-07-19",
+  "method": "GitHub repository language endpoints; byte counts aggregated across selected public projects",
+  "repositories": [
+    "Peippo1/Nereid",
+    "Peippo1/CampaignForge-AI",
+    "Peippo1/creatorkit-ai",
+    "Peippo1/Grand-Slam-Explorer"
+  ],
+  "totalBytes": 728414,
+  "languages": {
+    "TypeScript": 294005,
+    "Python": 287628,
+    "Jupyter Notebook": 69577,
+    "CSS": 59834,
+    "Shell": 11850,
+    "JavaScript": 3641,
+    "Makefile": 1048,
+    "Dockerfile": 831
+  }
+}

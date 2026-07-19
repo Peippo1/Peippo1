@@ -30,6 +30,14 @@ It is a technical preview built in public during the OpenAI Hackathon. The curre
 
 More case studies, build notes, and experiments are on my [portfolio](https://portfolio-site-gamma-ten-55.vercel.app).
 
+## Code telemetry
+
+<p align="center">
+  <img src="./assets/code-telemetry.svg" width="100%" alt="An orbital code map and stacked chart showing 40.4% TypeScript, 39.5% Python, 9.6% Jupyter Notebook, 8.2% CSS, and 2.3% supporting languages" />
+</p>
+
+This is a July 2026 snapshot of the four public projects above, calculated from GitHub’s repository language data. It represents code volume—not proficiency, time, or the full range of tools I use. The [source snapshot](./assets/code-telemetry-data.json) is kept alongside the graphic so the numbers can be checked and refreshed.
+
 ## How I like to build
 
 - Start with a real workflow and make the trade-offs visible.
