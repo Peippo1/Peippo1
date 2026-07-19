@@ -5,7 +5,7 @@
 <h1 align="center">Tim Finch</h1>
 
 <p align="center">
-  Building evidence-backed AI products and the systems that keep humans in control.<br />
+  Building evidence-backed AI products and the systems that keep people in control.<br />
   <a href="https://portfolio-site-gamma-ten-55.vercel.app">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/tim-finch00/">LinkedIn</a> ·
   <a href="https://github.com/Peippo1/Nereid">Nereid</a>
