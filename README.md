@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Peippo1/Peippo1/master/avatar.png" width="112" alt="Tim Finch" />
-</p>
-
 <h1 align="center">Tim Finch</h1>
 
 <p align="center">
@@ -9,6 +5,10 @@
   <a href="https://portfolio-site-gamma-ten-55.vercel.app">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/tim-finch00/">LinkedIn</a> ·
   <a href="https://github.com/Peippo1/Nereid">Nereid</a>
+</p>
+
+<p align="center">
+  <img src="./assets/profile-hero.svg" width="100%" alt="An animated path from a GitHub issue through an agent runner and evidence packet to a human decision" />
 </p>
 
 ## What I’m working on
@@ -21,10 +21,12 @@ It is a technical preview built in public during the OpenAI Hackathon. The curre
 
 ## Selected work
 
-- [Nereid](https://github.com/Peippo1/Nereid) — a delivery-control plane for coding agents, with a customer-controlled runner and human-only approval.
-- [CampaignForge AI](https://github.com/Peippo1/CampaignForge-AI) — campaign intelligence and structured GenAI workflows from brief to copy and creative concepts.
-- [CreatorKit AI](https://github.com/Peippo1/creatorkit-ai) — a tool for helping creators assess and improve content before publishing.
-- [Grand Slam Explorer](https://github.com/Peippo1/Grand-Slam-Explorer) — an interactive tennis analytics dashboard built with Next.js, TypeScript, Tailwind, and Recharts.
+| | |
+|:---:|:---:|
+| [![Nereid — evidence-backed delivery for coding agents](./assets/projects/nereid.svg)](https://github.com/Peippo1/Nereid) | [![CampaignForge AI — campaign intelligence and structured GenAI workflows](./assets/projects/campaignforge.svg)](https://github.com/Peippo1/CampaignForge-AI) |
+| **[Nereid](https://github.com/Peippo1/Nereid)**<br />Customer-controlled execution, immutable evidence, and human-only approval. | **[CampaignForge AI](https://github.com/Peippo1/CampaignForge-AI)**<br />Campaign intelligence from brief to copy and creative concepts. |
+| [![CreatorKit AI — feedback for creators before publishing](./assets/projects/creatorkit.svg)](https://github.com/Peippo1/creatorkit-ai) | [![Grand Slam Explorer — interactive tennis analytics](./assets/projects/grand-slam.svg)](https://github.com/Peippo1/Grand-Slam-Explorer) |
+| **[CreatorKit AI](https://github.com/Peippo1/creatorkit-ai)**<br />Practical feedback to assess and improve content before publishing. | **[Grand Slam Explorer](https://github.com/Peippo1/Grand-Slam-Explorer)**<br />Interactive tennis analytics built with Next.js, TypeScript, and Recharts. |
 
 More case studies, build notes, and experiments are on my [portfolio](https://portfolio-site-gamma-ten-55.vercel.app).
 
