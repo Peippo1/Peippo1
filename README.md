@@ -1,134 +1,46 @@
-<!-- Avatar + Centered Header -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Peippo1/Peippo1/master/avatar.png" width="160" style="border-radius: 50%;" />
+  <img src="https://raw.githubusercontent.com/Peippo1/Peippo1/master/avatar.png" width="112" alt="Tim Finch" />
 </p>
 
-<!-- Animated Typing Header -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=900&color=00B8FF&center=true&vCenter=true&width=500&lines=Hi+I'm+Tim+(Finch);AI+Implementation+Engineer;Building+practical+AI+systems" />
-</h1>
+<h1 align="center">Tim Finch</h1>
 
 <p align="center">
-  AI Implementation Engineer · Building practical systems with AI, data, and APIs  
+  Building evidence-backed AI products and the systems that keep humans in control.<br />
+  <a href="https://portfolio-site-gamma-ten-55.vercel.app">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/tim-finch00/">LinkedIn</a> ·
+  <a href="https://github.com/Peippo1/Nereid">Nereid</a>
 </p>
 
----
+## What I’m working on
 
-## 🧩 About Me
+### [Nereid](https://github.com/Peippo1/Nereid) — trusted delivery for coding agents
 
-I’m an AI Implementation Engineer focused on building practical systems that work in the real world.
+Coding agents can write code faster than a reviewer can safely reconstruct it. Nereid turns a GitHub issue into a customer-run delivery with an evidence packet: the plan, changes, verification, risks, and a human decision. Repositories and Codex credentials stay in the customer environment; Nereid records evidence and never merges.
 
-I work across AI engineering, data infrastructure, and product development — designing systems that connect models with real data and operational workflows.
+It is a technical preview built in public during the OpenAI Hackathon. The current work is making the control plane durable, reviewable, and safe enough for early design partners.
 
-My focus is on turning emerging AI capabilities into reliable, production-ready tools, from LLM-powered applications and agents to data pipelines, APIs, and automation services.
+## Selected work
 
----
+- [Nereid](https://github.com/Peippo1/Nereid) — a delivery-control plane for coding agents, with a customer-controlled runner and human-only approval.
+- [CampaignForge AI](https://github.com/Peippo1/CampaignForge-AI) — campaign intelligence and structured GenAI workflows from brief to copy and creative concepts.
+- [CreatorKit AI](https://github.com/Peippo1/creatorkit-ai) — a tool for helping creators assess and improve content before publishing.
+- [Grand Slam Explorer](https://github.com/Peippo1/Grand-Slam-Explorer) — an interactive tennis analytics dashboard built with Next.js, TypeScript, Tailwind, and Recharts.
 
-## 🚧 Currently Working On
+More case studies, build notes, and experiments are on my [portfolio](https://portfolio-site-gamma-ten-55.vercel.app).
 
-- **CityScout** — a local-first travel app with AI-generated itineraries and planning tools  
-- AI workflow systems and structured generation pipelines  
-- Lightweight APIs for AI-powered automation  
+## How I like to build
 
----
+- Start with a real workflow and make the trade-offs visible.
+- Use structured outputs, tests, and explicit guardrails around AI behaviour.
+- Keep data, credentials, and approval boundaries clear.
+- Ship small vertical slices, learn from them, then make the next version more durable.
 
-## 🧪 FinchWorks Studio
+## Tools I reach for
 
-<p align="center">
-  <a href="https://finchworksstudio.lemonsqueezy.com">
-    <img src="https://img.shields.io/badge/FinchWorks%20Studio-Visit%20Store-00B8FF?style=for-the-badge" />
-  </a>
-</p>
+TypeScript · Next.js · React · Node.js · Python · FastAPI · Postgres · Drizzle · Docker · GitHub Actions · OpenAI APIs · data pipelines and evaluation tooling
 
-I build developer-focused digital products — from AI starter kits to structured project tools — designed to help others ship faster and learn modern engineering patterns.
+## Find me
 
-### 🚀 Featured Product  
-- **Self-Hosted AI Assistant Backend (FastAPI + LangChain)**  
-  A production-ready backend template with Docker, tests, tools, and CI  
-  👉 https://finchworksstudio.lemonsqueezy.com  
-
----
-
-## 📌 Selected Projects
-
-- **CampaignForge-AI** — an end-to-end AI pipeline for generating structured marketing strategy, copy, and creative concepts  
-- **ReplyCraft API** — a FastAPI service for generating structured, channel-aware reply drafts  
-- **TrendNest** — a data pipeline and dashboarding system for analysing trends over time  
-- **CityScout** — a local-first travel app with AI-powered itinerary generation  
-
----
-
-## 🛠️ Tech Stack
-
-### **Languages**
-<p>
-  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-</p>
-
-### **AI & Machine Learning**
-<p>
-  <img src="https://img.shields.io/badge/LangChain-1E90FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG-00AAFF?style=for-the-badge" />
-</p>
-
-### **Backend / APIs**
-<p>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-</p>
-
-### **DevOps / Cloud**
-<p>
-  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-181717?style=for-the-badge&logo=github-actions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
-</p>
-
-### **Certifications**
-<p>
-  <img src="https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/GCP-Associate%20Cloud%20Engineer-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/Databricks-Certified-EF2D5E?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Dataiku-Core%20Designer-4B99C3?style=for-the-badge&logo=dataiku&logoColor=white" />
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api?username=Peippo1&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=Peippo1&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Peippo1&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 📫 Connect With Me
-
-<p>
-  <a href="https://linkedin.com/in/tim-finch00">
-    <img src="https://img.shields.io/badge/LinkedIn-Tim_Finch-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://finchworksstudio.lemonsqueezy.com">
-    <img src="https://img.shields.io/badge/FinchWorks_Studio-Store-00B8FF?style=for-the-badge" />
-  </a>
-  <a href="https://finchworks-studio.itch.io/">
-    <img src="https://img.shields.io/badge/FinchWorks_Studio-Itch.io-EDA045?style=for-the-badge" />
-  </a>
-</p>
-
-<p align="center">Thanks for visiting 👋</p>
+- [Portfolio](https://portfolio-site-gamma-ten-55.vercel.app)
+- [LinkedIn](https://www.linkedin.com/in/tim-finch00/)
+- [GitHub](https://github.com/Peippo1)
