@@ -1,56 +1,63 @@
 <h1 align="center">Tim Finch</h1>
 
-<p align="center">
-  Building evidence-backed AI products and the systems that keep people in control.<br />
-  <a href="https://portfolio-site-gamma-ten-55.vercel.app">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/tim-finch00/">LinkedIn</a> ·
-  <a href="https://github.com/Peippo1/Nereid">Nereid</a>
-</p>
+<p align="center"><strong>AI implementation engineer building useful systems around real data.</strong></p>
+
+<p align="center">AI engineering · data products · APIs · automation · product systems</p>
 
 <p align="center">
-  <img src="./assets/profile-hero.svg" width="100%" alt="An animated path from a GitHub issue through an agent runner and evidence packet to a human decision" />
+  <a href="https://peippo1.github.io/Peippo1/"><strong>Explore the project dashboard →</strong></a>
+  &nbsp;·&nbsp; <a href="https://portfolio-site-gamma-ten-55.vercel.app">Portfolio</a>
+  &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/tim-finch00/">LinkedIn</a>
 </p>
 
-## What I’m working on
+<p align="center"><img src="./assets/profile-hero.svg" width="100%" alt="An animated path from a GitHub issue through an agent runner and evidence packet to a human decision" /></p>
 
-### [Nereid](https://github.com/Peippo1/Nereid) — trusted delivery for coding agents
+## What I build
 
-Coding agents can write code faster than a reviewer can safely reconstruct it. Nereid turns a GitHub issue into a customer-run delivery with an evidence packet: the plan, changes, verification, risks, and a human decision. Repositories and Codex credentials stay in the customer environment; Nereid records evidence and never merges.
+I turn emerging AI capabilities into practical software: structured workflows, data pipelines, APIs, and interfaces that people can actually use. My work sits at the intersection of AI engineering, product development, and operational reliability.
 
-It is a technical preview built in public during the OpenAI Hackathon. The current work is making the control plane durable, reviewable, and safe enough for early design partners.
+I care about the layer around the model — clear inputs, useful outputs, explicit constraints, observable behaviour, and a human who stays in control.
 
-## Selected work
+## Current build
 
-| | |
-|:---:|:---:|
-| [![Nereid — evidence-backed delivery for coding agents](./assets/projects/nereid.svg)](https://github.com/Peippo1/Nereid) | [![CampaignForge AI — campaign intelligence and structured GenAI workflows](./assets/projects/campaignforge.svg)](https://github.com/Peippo1/CampaignForge-AI) |
-| **[Nereid](https://github.com/Peippo1/Nereid)**<br />Customer-controlled execution, immutable evidence, and human-only approval. | **[CampaignForge AI](https://github.com/Peippo1/CampaignForge-AI)**<br />Campaign intelligence from brief to copy and creative concepts. |
-| [![CreatorKit AI — feedback for creators before publishing](./assets/projects/creatorkit.svg)](https://github.com/Peippo1/creatorkit-ai) | [![Grand Slam Explorer — interactive tennis analytics](./assets/projects/grand-slam.svg)](https://github.com/Peippo1/Grand-Slam-Explorer) |
-| **[CreatorKit AI](https://github.com/Peippo1/creatorkit-ai)**<br />Practical feedback to assess and improve content before publishing. | **[Grand Slam Explorer](https://github.com/Peippo1/Grand-Slam-Explorer)**<br />Interactive tennis analytics built with Next.js, TypeScript, and Recharts. |
+### [Nereid](https://github.com/Peippo1/Nereid) — evidence-backed delivery for coding agents
 
-More case studies, build notes, and experiments are on my [portfolio](https://portfolio-site-gamma-ten-55.vercel.app).
+Nereid turns a GitHub issue into a customer-run delivery with a reviewable evidence packet: the plan, changes, verification, risks, and a human decision. Repositories and credentials stay in the customer environment; Nereid records the trail and never merges.
 
-## Code telemetry
+<p><a href="https://github.com/Peippo1/Nereid"><img src="https://img.shields.io/badge/technical_preview-111827?style=flat-square" alt="Technical preview" /></a> <a href="https://github.com/Peippo1/Nereid"><img src="https://img.shields.io/badge/human--in--the--loop-0f766e?style=flat-square" alt="Human in the loop" /></a></p>
 
-<p align="center">
-  <img src="./assets/code-telemetry.svg" width="100%" alt="An orbital code map and stacked chart showing 40.4% TypeScript, 39.5% Python, 9.6% Jupyter Notebook, 8.2% CSS, and 2.3% supporting languages" />
-</p>
+## Selected projects
 
-This is a July 2026 snapshot of the four public projects above, calculated from GitHub’s repository language data. It represents code volume—not proficiency, time, or the full range of tools I use. The [source snapshot](./assets/code-telemetry-data.json) is kept alongside the graphic so the numbers can be checked and refreshed.
+| Project | What it explores | Built with |
+| --- | --- | --- |
+| [CityScout](https://github.com/Peippo1/cityscout-public) | Local-first travel planning with AI-generated itineraries, saved places, and trip workflows. | SwiftUI · FastAPI · AI |
+| [CampaignForge AI](https://github.com/Peippo1/CampaignForge-AI) | Campaign intelligence from structured briefs to copy, concepts, and analytics. | Python · FastAPI · Spark · SQL |
+| [Smart Reply Service](https://github.com/Peippo1/Smart-Reply-Service) | Channel-aware reply generation with constraints, confidence scoring, and rate limits. | Python · FastAPI · LLMs |
+| [TrendNest](https://github.com/Peippo1/TrendNest) | A modular pipeline for extracting, modelling, summarising, and visualising trends. | Python · SQL · BigQuery · Streamlit |
+
+<p align="center"><a href="https://peippo1.github.io/Peippo1/">Browse the interactive dashboard for filters, architecture notes, and live links →</a></p>
 
 ## How I like to build
 
 - Start with a real workflow and make the trade-offs visible.
 - Use structured outputs, tests, and explicit guardrails around AI behaviour.
 - Keep data, credentials, and approval boundaries clear.
-- Ship small vertical slices, learn from them, then make the next version more durable.
+- Ship a small vertical slice, learn from it, then make the next version more durable.
 
 ## Tools I reach for
 
-TypeScript · Next.js · React · Node.js · Python · FastAPI · Postgres · Drizzle · Docker · GitHub Actions · OpenAI APIs · data pipelines and evaluation tooling
+**AI & application:** OpenAI APIs · Gemini · LangChain · agent workflows · structured generation
+
+**Product & backend:** TypeScript · React · Next.js · SwiftUI · Python · FastAPI · Node.js
+
+**Data & delivery:** SQL · Postgres · BigQuery · DuckDB · Spark · Streamlit · Docker · GitHub Actions
+
+## FinchWorks Studio
+
+I build developer-focused digital products and practical AI starter kits through [FinchWorks Studio](https://finchworksstudio.lemonsqueezy.com). The goal is simple: help people ship faster while keeping the engineering patterns understandable.
 
 ## Find me
 
-- [Portfolio](https://portfolio-site-gamma-ten-55.vercel.app)
-- [LinkedIn](https://www.linkedin.com/in/tim-finch00/)
-- [GitHub](https://github.com/Peippo1)
+[GitHub](https://github.com/Peippo1) · [LinkedIn](https://www.linkedin.com/in/tim-finch00/) · [Portfolio](https://portfolio-site-gamma-ten-55.vercel.app) · [FinchWorks Studio](https://finchworksstudio.lemonsqueezy.com)
+
+<p align="center"><sub>Building in public, one useful system at a time.</sub></p>
