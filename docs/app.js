@@ -47,12 +47,13 @@ function renderProjects() {
   const projects = visibleProjects();
   grid.replaceChildren();
   $('#empty-state').hidden = projects.length > 0;
-  projects.forEach((project) => grid.append(createCard(project)));
+  projects.forEach((project, index) => grid.append(createCard(project, index)));
 }
 
-function createCard(project) {
+function createCard(project, index) {
   const article = document.createElement('article');
   article.className = 'card';
+  article.style.setProperty('--card-index', index);
   article.innerHTML = `<img class="card-image" src="${project.image}" alt="${project.name} project illustration"><div class="card-body"><div class="card-top"><h3>${project.name}</h3><span class="status">${project.status}</span></div><p>${project.summary}</p><div class="tags">${project.technologies.map((tag) => `<span class="tag">${tag}</span>`).join('')}</div><div class="card-actions"><a class="action" href="${project.repositoryUrl}" target="_blank" rel="noreferrer">Repository ↗</a>${project.demoUrl ? `<a class="action" href="${project.demoUrl}" target="_blank" rel="noreferrer">Live demo ↗</a>` : ''}<button class="details" type="button">Details</button></div></div>`;
   article.querySelector('.details').addEventListener('click', () => showDetails(project));
   return article;
