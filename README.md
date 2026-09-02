@@ -12,7 +12,11 @@
   &nbsp;·&nbsp; <a href="https://peippo1.github.io/Peippo1/">Open the full project index ↗</a>
 </p>
 
-<p align="center"><img src="./assets/profile-hero.svg" width="100%" alt="An animated path from a GitHub issue through an agent runner and evidence packet to a human decision" /></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-banner-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-banner-light.svg" />
+  <img src="./assets/profile-banner-light.svg" width="100%" alt="Agentic AI systems made visible through evidence, data, APIs, and human decisions" />
+</picture>
 
 ## What I build
 
