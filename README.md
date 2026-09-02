@@ -1,6 +1,8 @@
 <h1 align="center">Tim Finch</h1>
 
-<p align="center"><strong>AI implementation engineer building useful systems around real data.</strong></p>
+<p align="center"><strong>Agentic AI systems, made visible.</strong></p>
+
+<p align="center">AI implementation engineer building useful systems around real data.</p>
 
 <p align="center">AI engineering · data products · APIs · automation · product systems</p>
 

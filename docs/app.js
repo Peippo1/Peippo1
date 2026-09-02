@@ -1,4 +1,4 @@
-const state = { category: null, technology: null, projects: [] };
+const state = { category: '', technology: '', search: '', projects: [] };
 const $ = (selector) => document.querySelector(selector);
 
 async function loadProjects() {
@@ -24,32 +24,22 @@ function uniqueValues(key) {
 }
 
 function buildFilters() {
-  createFilterButtons($('#category-filters'), uniqueValues('categories'), 'category');
-  createFilterButtons($('#technology-filters'), uniqueValues('technologies'), 'technology');
-}
-
-function createFilterButtons(container, values, key) {
-  values.forEach((value) => {
-    const button = document.createElement('button');
-    button.className = 'filter';
-    button.type = 'button';
-    button.textContent = value;
-    button.setAttribute('aria-pressed', 'false');
-    button.addEventListener('click', () => {
-      state[key] = state[key] === value ? null : value;
-      container.querySelectorAll('.filter').forEach((item) => item.setAttribute('aria-pressed', String(item.textContent === state[key])));
-      renderProjects();
-    });
-    container.append(button);
-  });
+  const categoryFilter = $('#category-filter');
+  const technologyFilter = $('#technology-filter');
+  uniqueValues('categories').forEach((value) => categoryFilter.append(new Option(value, value)));
+  uniqueValues('technologies').forEach((value) => technologyFilter.append(new Option(value, value)));
+  categoryFilter.addEventListener('change', (event) => { state.category = event.target.value; renderProjects(); });
+  technologyFilter.addEventListener('change', (event) => { state.technology = event.target.value; renderProjects(); });
+  $('#project-search').addEventListener('input', (event) => { state.search = event.target.value.trim().toLowerCase(); renderProjects(); });
 }
 
 function visibleProjects() {
   const matches = state.projects.filter((project) =>
     (!state.category || project.categories.includes(state.category)) &&
-    (!state.technology || project.technologies.includes(state.technology))
+    (!state.technology || project.technologies.includes(state.technology)) &&
+    (!state.search || `${project.name} ${project.summary} ${project.categories.join(' ')} ${project.technologies.join(' ')}`.toLowerCase().includes(state.search))
   );
-  return state.category || state.technology ? matches : matches.slice(0, 4);
+  return state.category || state.technology || state.search ? matches : matches.slice(0, 4);
 }
 
 function renderProjects() {
@@ -84,8 +74,8 @@ function showDetails(project) {
 }
 
 function clearFilters() {
-  state.category = null; state.technology = null; state.projects = shuffle(state.projects);
-  document.querySelectorAll('.filter').forEach((button) => button.setAttribute('aria-pressed', 'false'));
+  state.category = ''; state.technology = ''; state.search = ''; state.projects = shuffle(state.projects);
+  $('#category-filter').value = ''; $('#technology-filter').value = ''; $('#project-search').value = '';
   renderProjects();
 }
 
