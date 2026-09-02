@@ -4,10 +4,19 @@ const $ = (selector) => document.querySelector(selector);
 async function loadProjects() {
   const response = await fetch('projects.json');
   if (!response.ok) throw new Error('Could not load project data');
-  state.projects = await response.json();
-  $('#project-count').textContent = state.projects.filter((project) => project.featured).length;
+  state.projects = shuffle(await response.json());
+  $('#project-count').textContent = state.projects.length;
   buildFilters();
   renderProjects();
+}
+
+function shuffle(items) {
+  const result = [...items];
+  for (let index = result.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [result[index], result[randomIndex]] = [result[randomIndex], result[index]];
+  }
+  return result;
 }
 
 function uniqueValues(key) {
@@ -36,10 +45,11 @@ function createFilterButtons(container, values, key) {
 }
 
 function visibleProjects() {
-  return state.projects.filter((project) =>
+  const matches = state.projects.filter((project) =>
     (!state.category || project.categories.includes(state.category)) &&
     (!state.technology || project.technologies.includes(state.technology))
   );
+  return state.category || state.technology ? matches : matches.slice(0, 4);
 }
 
 function renderProjects() {
@@ -74,7 +84,7 @@ function showDetails(project) {
 }
 
 function clearFilters() {
-  state.category = null; state.technology = null;
+  state.category = null; state.technology = null; state.projects = shuffle(state.projects);
   document.querySelectorAll('.filter').forEach((button) => button.setAttribute('aria-pressed', 'false'));
   renderProjects();
 }
