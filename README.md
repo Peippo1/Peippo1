@@ -1,14 +1,14 @@
 <h1 align="center">Tim Finch</h1>
 
-<p align="center"><strong>Agentic AI systems, made visible.</strong></p>
+<p align="center"><strong>Building Agentic AI systems</strong></p>
 
-<p align="center">AI implementation engineer building useful systems around real data.</p>
+<p align="center">AI Deployment Engineer building systems around real data.</p>
 
-<p align="center">AI engineering · data products · APIs · automation · product systems</p>
+<p align="center">AI engineering · data products · APIs · MCPs · AGENTS · automation · product systems</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/tim-finch00/">LinkedIn</a>
-  &nbsp;·&nbsp; <a href="https://portfolio-site-gamma-ten-55.vercel.app">Portfolio</a>
+  &nbsp;·&nbsp; <a href="[https://portfolio-site-gamma-ten-55.vercel.app](https://tfinch.dev/)">Portfolio</a>
   &nbsp;·&nbsp; <a href="https://peippo1.github.io/Peippo1/">Open the full project index ↗</a>
 </p>
 
@@ -20,7 +20,7 @@
 
 ## What I build
 
-I turn emerging AI capabilities into practical software: structured workflows, data pipelines, APIs, and interfaces that people can actually use. My work sits at the intersection of AI engineering, product development, and operational reliability.
+I turn emerging AI capabilities into practical software: Agent workflows, data pipelines, APIs, MCPs and interfaces that people can actually use. My work sits at the intersection of AI engineering, product development, and operational reliability.
 
 I care about the layer around the model — clear inputs, useful outputs, explicit constraints, observable behaviour, and a human who stays in control.
 
@@ -31,6 +31,10 @@ I care about the layer around the model — clear inputs, useful outputs, explic
 Nereid turns a GitHub issue into a customer-run delivery with a reviewable evidence packet: the plan, changes, verification, risks, and a human decision. Repositories and credentials stay in the customer environment; Nereid records the trail and never merges.
 
 <p><a href="https://github.com/Peippo1/Nereid"><img src="https://img.shields.io/badge/technical_preview-111827?style=flat-square" alt="Technical preview" /></a> <a href="https://github.com/Peippo1/Nereid"><img src="https://img.shields.io/badge/human--in--the--loop-0f766e?style=flat-square" alt="Human in the loop" /></a></p>
+
+
+### [EvalKit](https://eval-kit-chi.vercel.app) - LLM EvalKit for prompts and agents.
+
 
 ## Project index
 
