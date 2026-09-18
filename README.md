@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/tim-finch00/">LinkedIn</a>
-  &nbsp;·&nbsp; <a href="[https://portfolio-site-gamma-ten-55.vercel.app](https://tfinch.dev/)">Portfolio</a>
+  &nbsp;·&nbsp; <a href="https://tfinch.dev/">Portfolio</a>
   &nbsp;·&nbsp; <a href="https://peippo1.github.io/Peippo1/">Open the full project index ↗</a>
 </p>
 
